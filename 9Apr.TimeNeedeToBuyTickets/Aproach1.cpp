@@ -1,4 +1,7 @@
 class Solution {
+    //Approach-1 (Using Queue to simply simulate the operations)
+//T.C : O(n*m) -> Loop runs intil queue is empty and in worst case all people have maximum m tickets 
+//S.C : O(n)
 public:
     int timeRequiredToBuy(vector<int>& tickets, int k) {
         queue<pair<int,int>> que;
